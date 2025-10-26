@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"math/rand"
 )
 
@@ -22,7 +23,7 @@ func main() {
 
 	shakeArray(outPass)
 
-	println(string(outPass))
+	fmt.Println(string(outPass))
 }
 
 func giveRndSym(syms string) rune {
